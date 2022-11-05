@@ -6,6 +6,7 @@ package com.hayriaral.notification.model.enums;
  * @author hayriaral
  * @since 1.0.0
  */
+@SuppressWarnings("unused")
 public enum DispatchType {
 
     /**

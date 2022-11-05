@@ -1,5 +1,6 @@
 package com.hayriaral.notification.model.enums;
 
+@SuppressWarnings("unused")
 public enum NotificationType {
 
     PUSH,
