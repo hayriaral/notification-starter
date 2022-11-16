@@ -6,10 +6,10 @@
 
     <groupId>com.hayriaral.notification</groupId>
     <artifactId>notification-starter</artifactId>
-    <version>${revision}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>Notification Starter</name>
     <description>Common features for notification services</description>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <licenses>
         <license>
@@ -18,11 +18,7 @@
         </license>
     </licenses>
 
-    <!--TODO Complete-->
-    <scm>
-        <connection></connection>
-        <url></url>
-    </scm>
+    <!--TODO scm-->
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -43,12 +39,11 @@
         </dependency>
     </dependencies>
 
-    <!--TODO complete-->
     <distributionManagement>
         <repository>
-            <id>Something id</id>
-            <name>Something release</name>
-            <url>some-url</url>
+            <id>hayriaral-notification</id>
+            <name>notification-starter</name>
+            <url>https://github.com/hayriaral/notification-starter</url>
         </repository>
     </distributionManagement>
 
