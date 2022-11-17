@@ -39,13 +39,12 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
+    <repositories>
         <repository>
-            <id>hayriaral-notification</id>
-            <name>notification-starter</name>
-            <url>https://github.com/hayriaral/notification-starter</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
-    </distributionManagement>
+    </repositories>
 
     <build>
         <plugins>
